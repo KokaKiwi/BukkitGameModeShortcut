@@ -12,12 +12,12 @@ public class GameModeShortcut extends JavaPlugin
     {
         getCommand("gm").setExecutor(new GameModeShortcutCommandExecutor());
         
-        logger.info(getDescription().getFullName() + " enabled.");
+        logger.info(getDescription().getFullName() + " is enabled.");
     }
     
     public void onDisable()
     {
-        logger.info(getDescription().getFullName() + " disabled.");
+        logger.info(getDescription().getFullName() + " is disabled.");
     }
     
 }
