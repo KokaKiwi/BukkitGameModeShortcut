@@ -1,0 +1,11 @@
+name: BukkitGameModeShortcut
+main: com.kokakiwi.bukkit.plugins.gamemode.GameModeShortcut
+version: "${project.version}"
+author: KokaKiwi
+commands:
+  gm:
+    description: Change Gamemode
+    usage: /<command> help
+permissions:
+  gms.gamemode.change:
+    description: Allow Gamemode change.
